@@ -1,0 +1,159 @@
+@import url("https://use.typekit.net/ibc4lqh.css");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "kallisto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body{
+  position: relative;
+  height: 70vh;
+  overflow:visible;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+background-image: url(../images/backgroung.png);
+overflow: hidden;
+ 
+}
+
+h1{
+  font-size: 4em;
+  color: #2D4689;
+text-align: center;
+margin-top: 20px;
+position: relative;
+bottom: -230px;
+right: -70px;
+
+}
+h2{
+  font-size: 4em;
+  color: #2D4689;
+text-align: center;
+margin-top: 20px;
+position: relative;
+bottom: -228px;
+right: -70px ;
+
+}
+.RECTANGLE{
+  position: absolute;
+  width: 110px;
+  height: 30px;
+  border-radius: 10.066px;
+  background-color: #764D8C;
+  animation: ;
+}
+
+.RECTANGLE-1{
+  width: 170px;
+  height: 80px;
+  top: 280px;
+  right: 720px;
+  transform: rotate(0deg);
+}
+
+.RECTANGLE-2{
+  width: 220px;
+  height: 20px;
+  top: 253px;
+  right: 695px;
+}
+
+.RECTANGLE-3{
+  width: 30px;
+  height: 30px;
+  top: 140px;
+ right: 785px;
+  background-color: #764D8C;
+}
+
+.RECTANGLE-4{
+  width: 20px;
+  height: 20px;
+  top: 450px;
+  right: 790px;
+  background-color: #764D8C;
+}
+
+.RECTANGLE-5{
+  width: 70px;
+  height: 130px;
+  top: 146px;
+ right: 765px;
+  background-color: #764D8C;
+  transform: rotate(90deg);
+  
+}
+
+.Line-Container{
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.Line{
+  position: relative;
+  width: 20px;
+  height: 70px;
+  background-color: orange;
+  left: 500px;
+  top: -70px ;
+  transform: rotate(90deg);
+}
+
+.Line::before{
+  content: ;
+  position: absolute;
+  width: 20px;
+  height: 70px;
+  background-color:green;
+  border-radius: 20%;
+  top: 70px;
+  left: 90px;
+  transform: translateY(-50%);
+  transform: rotate(90deg);
+}
+
+.OVAL{
+  position: absolute;
+  border-radius: 50%;
+  background:#764D8C;
+  box-shadow:0ch 4px, 8px rgba(71, 71, 94, 0.5);
+  inset: 0 2px 4px rgba(255,255,255,0.5);
+  border-color: #2D4689;
+  border-width: 2px;
+  display:flex ;
+  justify-content: center;
+  padding: 15px;
+  animation: ball ;
+
+}
+.OVAL-1{
+width: 110px;
+height: 110px;
+transform: rotate(35.760deg);
+top: 390px;
+right: 650px ;
+ 
+}
+
+.OVAL-2{
+width: 110px;
+height: 110px;
+transform: rotate(35.760deg);
+top: 390px;
+right: 810px ; 
+
+}
+
+@keyframes FRAMEMOVING {
+  0%{
+    transform: scale();
+  }
+  
+}
+
